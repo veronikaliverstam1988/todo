@@ -61,12 +61,11 @@ ul.theList {
 }
 
 button {
-  font-size: 16pt;
+  font-size: 17pt;
   font-weight: bold;
   background-color: transparent;
   border: none;
   text-align: right;
-
 }
 
 .checkeditem {
@@ -76,4 +75,12 @@ button {
 
 .notcheckeditem {
   color: red;
+}
+
+.remove {
+  border: solid 4px white;
+  border-radius: 10%;
+  background-color: orangered;
+  font-size: 20px;
+
 }
