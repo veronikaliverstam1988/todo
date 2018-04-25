@@ -1,8 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import TodoList from "./TodoList";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+let destination = document.querySelector("#container");
+
+ReactDOM.render(
+    <div>
+        <TodoList/>
+    </div>,
+    destination
+);
